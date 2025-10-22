@@ -1,3 +1,4 @@
+import { Destaque } from "@/components/features/destaque/destaque";
 import {Hero} from "@/components/features/hero/hero"
 import { Models } from "@/components/features/models/models";
 export default function Home() {
@@ -5,6 +6,7 @@ export default function Home() {
    <>
     <Hero/>
     <Models/>
+    <Destaque/>
    </>
   );
 }
