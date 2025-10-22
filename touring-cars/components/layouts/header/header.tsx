@@ -13,8 +13,8 @@ export function Header() {
   ];
 
   return (
-    <header className="w-full flex items-center justify-between p-10">
-      <Image src={Logo} alt="Logo TouringCars" className="w-48" />
+    <header className="w-full flex items-center justify-between p-5">
+      <Image src={Logo} alt="Logo TouringCars" className="w-48 ml-15" />
       <nav>
         <ul className="flex gap-6 text-2xl font-medium">
           {links.map((link) => {
