@@ -4,8 +4,10 @@ import { Cards } from "./Cards/cards";
 export function Destaque(){
     return(
         <>
-            <Title text="Destaque Semanal"/>
-            <Cards/>
+            <section className="py-[160px]">
+                <Title text="Destaque Semanal"/>
+                <Cards/>
+            </section>
         </>
     )
 }
