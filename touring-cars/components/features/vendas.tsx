@@ -5,7 +5,7 @@ export function Vendas(){
     return(
 
         <>
-            <section>
+            <section className="pb-20">
                 <Title text="Ultimas Vendas"/>
                 <VendasCards/>
             </section>

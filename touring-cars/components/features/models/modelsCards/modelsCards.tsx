@@ -15,8 +15,8 @@ export function ModelCards() {
       {cars.map((car) => (
         <div
           key={car.name}
-          className="w-100 h-64 bg-cover bg-center rounded-2xl relative shadow-lg hover:scale-105 hover:shadow-2xl shadow-gray-700 transition-all"
-          style={{ backgroundImage: `url(${car.img})` }}
+          className="w-100 h-64 bg-cover bg-center rounded-2xl relative shadow-lg hover:scale-105 hover:shadow-2xl transition-all"
+          style={{ backgroundImage: `url(${car.img.src})` }}
         >
           <div className="absolute inset-0 bg-opacity-40 rounded-2xl flex items-end justify-start ml-5 p-3">
             <h2 className="text-white text-2xl">{car.name}</h2>
