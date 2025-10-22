@@ -1,14 +1,8 @@
 "use client";
 
 import Image from "next/image";
-import { Poppins } from "next/font/google";
 import Logo from "@/assets/images/touringcars.png";
 import { usePathname } from "next/navigation";
-
-const poppins = Poppins({
-  subsets: ["latin"],
-  weight: ["400", "600", "700"],
-});
 
 export function Header() {
   const pathname = usePathname();
@@ -19,7 +13,7 @@ export function Header() {
   ];
 
   return (
-    <header className={`w-full flex items-center justify-between p-10 ${poppins.className}`}>
+    <header className="w-full flex items-center justify-between p-10">
       <Image src={Logo} alt="Logo TouringCars" className="w-48" />
       <nav>
         <ul className="flex gap-6 text-2xl font-medium">
