@@ -1,7 +1,7 @@
 export function Cards(){
     return(
         <div className="w-full flex justify-center items-center py-10">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-[1200px]">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-[1250px]">
             {/* Card 1 */}
             <div className="bg-black px-5 py-15 rounded-2xl text-white flex flex-col justify-center">
             <h1 className="text-3xl font-bold mb-3">Missão</h1>
