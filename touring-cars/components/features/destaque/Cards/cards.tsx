@@ -3,11 +3,11 @@ import Inter from "@/assets/images/TextMacan.png";
 
 export function Cards() {
   return (
-    <div className="w-full grid grid-cols-1 gap-8 justify-items-center py-5 lg:px-10 lg:flex xl:justify-between xl:w-[1250px] xl:m-auto">
+    <div className="w-full grid grid-cols-1 gap-8 justify-items-center py-5 lg:px-10 lg:flex xl:justify-between xl:w-[1250px] 2xl:w-[1350px] xl:m-auto">
 
       {/* Card da imagem do carro */}
       <div
-        className="w-[90%] h-[490px] lg:w-[50%] xl:w-[60%] 2xl:w-[60%] bg-cover bg-no-repeat bg-center rounded-4xl relative shadow-lg hover:scale-105 hover:shadow-2xl transition-all"
+        className="w-[90%] h-[490px] lg:w-[50%] xl:w-[60%] 2xl:w-[80%] bg-cover bg-no-repeat bg-center rounded-4xl relative shadow-lg hover:scale-105 hover:shadow-2xl transition-all"
         style={{ backgroundImage: `url(${Car.src})` }}
       ></div>
 

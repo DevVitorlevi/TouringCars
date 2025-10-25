@@ -17,11 +17,11 @@ export function Hero() {
       </div>
 
       {/* Imagem */}
-      <div className="flex justify-center lg:justify-end w-full">
+      <div className="flex justify-center lg:justify-end-safe w-full">
         <Image
           src={Porsche}
           alt="Porsche"
-          className="w-full max-w-[900px] h-auto object-contain lg:object-right"
+          className="w-full ml-23 max-w-[800px] h-auto object-contain lg:object-right"
           priority
         />
       </div>

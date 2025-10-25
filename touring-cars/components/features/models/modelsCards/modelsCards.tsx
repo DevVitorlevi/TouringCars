@@ -9,9 +9,6 @@ export function ModelCards() {
     { name: "Combustion", img: Combustion }, 
     { name: "Eletric", img: Eletric },
   ];
-  const a = 1;
-  const b = 2;
-  console.log(a + b);
 
   return (
 
