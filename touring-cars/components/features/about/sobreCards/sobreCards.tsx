@@ -4,13 +4,13 @@ import Car from "@/assets/images/porsche-model1 1.png";
 
 export function SobreNos() {
   return (
-    <section className="w-full flex flex-col md:flex-row items-center justify-center gap-10 px-6 py-20">
+    <section className="w-full flex flex-col lg:flex-row items-center justify-center gap-10 px-6 py-20">
       {/* Card de texto */}
       <div className="w-full md:w-[700px] bg-gray-100 flex items-center rounded-2xl shadow-2xl p-6">
         <div>
           <h1 className="text-4xl font-bold mb-5">Sobre nós</h1>
 
-          <p className="text-justify mb-4 font-semibold">
+          <p className="text-justify mb-4 font-semibold ">
             A Touring Cars é especializada, principalmente, na venda de veículos
             de luxo e superesportivos. Com segurança, transparência e qualidade,
             nossos veículos são verificados e certificados para garantir ao
@@ -42,7 +42,7 @@ export function SobreNos() {
         <Image
           src={Car}
           alt="Porsche"
-          className="w-full max-w-[500px] h-auto"
+          className="w-full max-sm:ml-20 max-w-[500px] h-auto"
           priority
         />
       </div>
